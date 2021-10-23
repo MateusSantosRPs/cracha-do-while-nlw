@@ -1,6 +1,6 @@
 const links_social_media = {
   github: 'MateusSantosRPs',
-  youtube: 'maykbrito',
+  youtube: 'UChTQtK88-tuBkAOPHWBujXA',
   facebook: 'maykbrito',
   instagram: '_mattst',
   twitter: 'MateusSantosRPs'
