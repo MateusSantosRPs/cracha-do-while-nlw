@@ -3,7 +3,7 @@ const links_social_media = {
   youtube: 'maykbrito',
   facebook: 'maykbrito',
   instagram: '_mattst',
-  twitter: 'maykbrito'
+  twitter: 'MateusSantosRPs'
 }
 
 function change_social_media_links() {
