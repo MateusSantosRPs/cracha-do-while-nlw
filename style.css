@@ -17,7 +17,7 @@ body {
 
 body {
   display: grid;
-  place-items: center;
+  place-items: start center;
 }
 
 main {
@@ -88,4 +88,63 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+@media (min-width: 720px) {
+  /* Adidionando cor ao body */
+  body {
+    background: linear-gradient(
+      to bottom,
+      #d94245,
+      #e06035,
+      #df7d25,
+      #d07728,
+      #c1712a,
+      #b36b2c,
+      #8d492f,
+      #612f2a,
+      #331b1d,
+      #000000
+    );
+  }
+ 
+  main {
+    min-height: 540px;
+    height: 540px;
+    width: 358px;
+    margin-top: 60px;
+    position: relative;
+    -webkit-box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.35);
+  }
+  
+ .container::before {
+    content: '';
+    background: black;
+    width: 80px;
+    height: 8px;
+    position: absolute;
+    margin-left: -38px;
+    top: 30px;
+  }
+
+  /* alça colorida. */
+  .container::after {
+    content: '';
+    background: linear-gradient(hsl(327, 100%, 50%), hsl(61, 97%, 71%));
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 64px;
+    height: 92px;
+    position: absolute;
+    top: -60px;
+    margin-left: -31px;
+  }
+
+  .avatar {
+    margin: 4.5rem auto 0;
+  }
+  ul {
+    margin-top: 2rem;
+  }
 }
